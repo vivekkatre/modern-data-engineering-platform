@@ -34,6 +34,7 @@ while b <= 10:
 a = 1
 while a != 0:
     a = int(input("Enter a number: "))
+print("Program Ended")
 
 # 3. break (2 Exercises)
 
@@ -47,7 +48,7 @@ while num <= 20:
 # Exercise 1 (Using for loop)
 for num in range(1, 21):
     print(num)
-    if num == 10:
+    if num == 11:
         break
 
 # Exercise 2
@@ -121,10 +122,8 @@ add_numbers(10, 20)
 
 # Exercise 3
 def employee_details(name, department):
-    name = name
-    department = department
-    print("Employee: {name}")
-    print("Department: {department}")
+    print(f"Employee: {name}")
+    print(f"Department: {department}")
 
 employee_details("Alich", "IT")
 
